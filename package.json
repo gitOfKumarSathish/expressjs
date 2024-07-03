@@ -1,0 +1,30 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "learning Expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-test": "nodemon test/index.js",
+    "start": "nodemon index.js",
+    "start-nodejs": "nodemon basicListner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitOfKumarSathish/expressjs.git"
+  },
+  "author": "Sathish Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gitOfKumarSathish/expressjs/issues"
+  },
+  "homepage": "https://github.com/gitOfKumarSathish/expressjs#readme"
+}
